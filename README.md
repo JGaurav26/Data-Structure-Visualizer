@@ -1,1 +1,1 @@
-# SplayNet-IP
+# Data Structure Visualizer
