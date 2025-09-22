@@ -39,14 +39,14 @@ A visual tool to understand <b>Sorting</b> and <b>Searching</b> algorithms with 
 ## 📂 Project Structure  
 
 ```bash
-├── public/             # Static files  
-├── src/                # Main source code  
-│   ├── algorithms/     # Sorting & Searching logic  
-│   ├── components/     # UI components  
-│   ├── visuals/        # Animation logic  
-│   └── App.js          # Entry file  
-├── package.json        # Dependencies  
-└── README.md           # Project Documentation
+├── images/                
+│   ├── sorting Visulaizer.png/     # preview
+├── src/                            # Main source code  
+│   ├── index.html/ 
+│   ├── styles.css/     
+│   ├── script.js/  
+├── Contribution.md                 # Dependencies  
+└── README.md                       # Project Documentation
 ```
 ---
 
