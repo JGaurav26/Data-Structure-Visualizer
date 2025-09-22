@@ -29,7 +29,6 @@ A visual tool to understand <b>Sorting</b> and <b>Searching</b> algorithms with 
 - Searching Algorithms
 
 ## 📷 Preview  
-> Replace with your project output screenshots  
 
 <p align="center">
   <img src="assets/output-demo.png" alt="Project Demo" width="700px"/>
@@ -66,28 +65,24 @@ cd data-structure-visualizer
 4. Push and submit a PR
 
 ---
+## 👨‍💻 Contributors  
 
 <p align="center">
   <a href="https://github.com/JGaurav26">
-    <img src="https://avatars.githubusercontent.com/your-username" width="100px;" style="border-radius:50%;" alt=""/>
+    <img src="https://avatars.githubusercontent.com/JGaurav26" width="100px" style="border-radius:50%;" alt="Gaurav Jadhav"/>
     <br />
     <sub><b>Gaurav Jadhav</b></sub>
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/MShreyash09">
-    <img src="https://avatars.githubusercontent.com/contributor1" width="100px;" style="border-radius:50%;" alt=""/>
+    <img src="https://avatars.githubusercontent.com/MShreyash09" width="100px" style="border-radius:50%;" alt="Shreyash Mandlapure"/>
     <br />
     <sub><b>Shreyash Mandlapure</b></sub>
   </a>
-  &nbsp;&nbsp;&nbsp;
-</p>  
-
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/⭐-Star_this_repo-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/🔔-Watch_this_repo-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/🍴-Fork_this_repo-green?style=for-the-badge">
 </p>  
-
-
-<h3 align="center">✨ Made with ❤️ by <a href="https://github.com/JGaurav26">Gaurav</a> ✨</h3>
