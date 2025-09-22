@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <input type="text" id="array-input" placeholder="Enter numbers separated by commas">
+        <div id="array-container"></div>
+        <div class="controls">
+            <button class="btn create-btn" onclick="createArray()">Create Array</button>
+            <button class="btn generate-btn" onclick="generateRandomArray()">Generate Random Array</button>
+            <button class="btn sort-btn" onclick="visualizeBubbleSort()">Bubble Sort</button>
+            <button class="btn sort-btn" onclick="visualizeInsertionSort()">Insertion Sort</button>
+            <button class="btn sort-btn" onclick="visualizeMergeSort()">Merge Sort</button>
+            <button class="btn sort-btn" onclick="visualizeQuickSort()">Quick Sort</button>
+            <input type="range" min="100" max="1000" value="300" id="speed" step="100">
+            <label for="speed">Speed</label>
+        </div>
+        <canvas id="bubbleSortChart" width="400" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
