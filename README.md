@@ -1,10 +1,13 @@
 <h1 align="center">📊 Data Structure Visualizer</h1>  
 
+## 🚀 Tech Stack  
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-JavaScript-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Framework-React-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Category-Education-orange?style=for-the-badge">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50"/>
 </p>  
+
+---
 
 <p align="center">
 A visual tool to understand <b>Sorting</b> and <b>Searching</b> algorithms with interactive animations 🚀.  
