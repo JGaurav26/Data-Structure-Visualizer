@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #E1F5FE, #B2EBF2);
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 2.5rem;
+  }
+  
+  #array-input {
+    padding: 15px;
+    width: 250px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+  }
+  
+  #array-input:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  #array-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+  }
+  
+  .array-number {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 15px;
+    background-color: #3498db; /* Default color for unsorted elements */
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    transition: all 0.4s ease-in-out; /* Smoother transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Highlight for comparing elements */
+  .comparing {
+    background-color: #e74c3c; /* Red color for comparison */
+    transform: scale(1.2);
+    z-index: 1; /* Ensure comparing elements are on top */
+  }
+  
+  /* Green color for all sorted elements */
+  .sorted {
+    background-color: #2ecc71; /* Green color for all sorted elements */
+    transition: background-color 0.5s ease; /* Smooth transition */
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    background-image: linear-gradient(to bottom right, #4CAF50, #2E7D32);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Create Array Button Specific Styles */
+  .controls .create-btn {
+    background-color: #007bff;
+    background-image: linear-gradient(to bottom right, #007bff, #0056b3);
+  }
+  
+  /* Generate Random Array Button Specific Styles */
+  .controls .generate-btn {
+    background-color: #e67e22;
+    background-image: linear-gradient(to bottom right, #e67e22, #d35400);
+  }
+  
+  .controls .btn:hover {
+    background-color: #388E3C;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="range"] {
+    margin: 20px;
+  }
+  
