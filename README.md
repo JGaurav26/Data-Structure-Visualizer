@@ -1,7 +1,7 @@
 <h1 align="center">📊 Data Structure Visualizer</h1>  
 
 <p align="center">
-A visual tool to understand <b>Sorting</b> and <b>Searching</b> algorithms with interactive animations 🚀.  
+A visual tool to understand <b>Sorting</b> and <b>Searching</b> algorithms with interactive animations .  
 </p>  
 
 ---
